@@ -1,0 +1,23 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "homework", "homework\homework.csproj", "{1b8aef51-2f4a-4103-ad85-b8b1fcedc702}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "homeworkScreens", "homework\homeworkScreens\homeworkScreens.csproj", "{d6707d3e-4d32-4f6c-84d1-822666cceeb1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1B8AEF51-2F4A-4103-AD85-B8B1FCEDC702}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1B8AEF51-2F4A-4103-AD85-B8B1FCEDC702}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1B8AEF51-2F4A-4103-AD85-B8B1FCEDC702}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1B8AEF51-2F4A-4103-AD85-B8B1FCEDC702}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D6707D3E-4D32-4F6C-84D1-822666CCEEB1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D6707D3E-4D32-4F6C-84D1-822666CCEEB1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D6707D3E-4D32-4F6C-84D1-822666CCEEB1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D6707D3E-4D32-4F6C-84D1-822666CCEEB1}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

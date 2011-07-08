@@ -1,0 +1,31 @@
+﻿<UserControl
+	xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+	xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+	xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+	xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+	xmlns:i="http://schemas.microsoft.com/expression/2010/interactivity" xmlns:pi="http://schemas.microsoft.com/prototyping/2010/interactivity"
+	mc:Ignorable="d"
+	x:Class="homeworkScreens.new_scheduler__resource_management"
+	Width="640" Height="480">
+
+	<Grid x:Name="LayoutRoot" Background="White">
+		<TextBlock HorizontalAlignment="Left" Margin="53,0,0,205" TextWrapping="Wrap" VerticalAlignment="Bottom" Height="32" Width="60"><Run Text="Assignee"/><LineBreak/><Run/></TextBlock>
+		<TextBlock HorizontalAlignment="Left" Margin="53,207,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="32" Width="60"><Run Text="Manager"/><LineBreak/><Run/></TextBlock>
+		<TextBlock HorizontalAlignment="Left" Margin="53,171,0,0" TextWrapping="Wrap" VerticalAlignment="Top"><Run Text="related job"/><LineBreak/><Run/></TextBlock>
+		<Button Content="Next: Prioritization" HorizontalAlignment="Right" Margin="0,0,70,70" Style="{StaticResource Button-Sketch}" VerticalAlignment="Bottom">
+			<i:Interaction.Triggers>
+				<i:EventTrigger EventName="Click">
+					<pi:NavigateToScreenAction TargetScreen="homeworkScreens.new_scheduler_job"/>
+				</i:EventTrigger>
+			</i:Interaction.Triggers>
+		</Button>
+		<Button Content="Back" HorizontalAlignment="Right" Margin="0,0,210,70" Style="{StaticResource Button-Sketch}" VerticalAlignment="Bottom" Width="75">
+			<i:Interaction.Triggers>
+				<i:EventTrigger EventName="Click">
+					<pi:NavigateToScreenAction TargetScreen="homeworkScreens.new_scheduler"/>
+				</i:EventTrigger>
+			</i:Interaction.Triggers>
+		</Button>
+		<TextBlock HorizontalAlignment="Center" Margin="53,68,0,0" TextWrapping="Wrap" Text="New Scheduler: Resource Mgt" VerticalAlignment="Top" FontSize="32" Width="502"/>
+	</Grid>
+</UserControl>
